@@ -1,0 +1,26 @@
+# Файлы кэша и артефакты Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Папки IDE и редакторов
+.idea/
+.vscode/
+.project
+.settings
+*.sublime-workspace
+
+# Виртуальное окружение
+venv/
+.env
+
+# Файлы, генерируемые приложением (ВАЖНО: не загружать в репозиторий!)
+*.log
+config.ini
+steam_cache.json
+results_autosave.json
+
+# Системные файлы
+.DS_Store
+Thumbs.db
